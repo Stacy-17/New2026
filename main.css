@@ -11,3 +11,13 @@ h1{
 h2{
     color: blue;
 }
+
+a{
+    color: hotpink;
+}
+a:visited{
+    color: magenta;
+}
+a:hover{
+    color: cyan;
+}
