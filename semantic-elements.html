@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Stacy">
+    <meta name="description" content="About semantic elements in HTML">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/elements.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <title>Semantic Elements</title>
+</head>
+<body>
+    <header>
+        <h1>Semantic Elements</h1>
+        <nav aria-label="primary navigation">
+            <ul>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#examples">Examples</a></li>
+                <li><a href="#conclusion">Conclusion</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--section 1 Introduction-->
+
+    <article id="introduction">
+
+        <h2>Introduction to Semantic Elements</h2>
+        <p>Semantic elements provide meaning to the structure of a webpage.</p>
+        <aside>
+            <details>
+                <summary>Guess how many <mark>number of hours </mark>I code in a day </summary>
+                <p>I learn about coding from <time datetime="14:00"> 2pm for about <time datetime="PT1H"></time>1 hour</time> a day </p>
+            </details>
+        </aside>
+        
+    </article>
+
+        <!--section 2 Examples-->
+
+        <article id="examples">
+
+        <h2>Examples of Semantic Elements</h2>
+
+        <ul>
+            <li><strong>&lt;header&gt;</strong>: Represents introductory content or a set of navigational links.</li>
+            <li><strong>&lt;nav&gt;</strong>: Represents a section of a page that links to other pages or to parts within the page.</li>
+            <li><strong>&lt;main&gt;</strong>: Represents the main content of the document.</li>
+            <li><strong>&lt;article&gt;</strong>: Represents a self-contained composition in a document, page, application, or site.</li>
+            <li><strong>&lt;section&gt;</strong>: Represents a standalone section of content which doesn't have a more specific semantic element to represent it.</li>
+            <li><strong>&lt;footer&gt;</strong>: Represents a footer for its nearest sectioning content or sectioning root element.</li>
+        </ul>
+        <table>
+            <caption>Daily Schedule</caption>
+            <thead>
+                <tr>
+                    <th>&nbsp;</th>
+                    <th scope="col">Time</th>
+                    <th>Activity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Morning</th>
+                    <td><time datetime="08:00">8am</time> - <time datetime="11:00">11am</time></td>
+                    <td>Write Code</td>
+                
+                
+            </tr>
+            <tr>
+                <th scope="row">Mid-morning</th>
+                <td>
+                    <time datetime="12:00">12pm</time> - <time datetime="15:00">3pm</time>
+                    </td>
+                    <td>Eat Lunch</td>
+                
+                
+            </tr>
+            <tr>
+                <th scope="row">Afternoon</th>
+                <td>
+                    <time datetime="15:00">3pm</time> - <time datetime="18:00">6pm</time>
+                </td>
+                    <td>Study for school</td>
+                
+                
+            </tr> 
+            <tr>
+                <th>Evening</th>
+                <td rowspan="2">All other times</td>
+                <td>Free Time</td>
+            </tr>
+            <tr>
+                <th scope="row">Night</th>
+                <td>Sleep</td>
+            </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">What I do every day. Eat, sleep, code and repeat </td>
+                </tr>
+            </tfoot>
+            
+        </table>
+
+        </article>
+
+        <!--section 3 Conclusion-->
+
+        <section id="conclusion">
+
+        <h2>Conclusion</h2>
+        <p>Using semantic elements improves the accessibility and SEO of a webpage.</p>
+        
+    </section>
+
+    </main>
+    <footer>
+
+    <p> &lt; &lt;&lt; &copy; <a href="about.html">Stacy Njeri</a> &gt; &gt; &gt; 2026</p>
+          <p><a href="#html">Back to Top</a></p>
+    </footer>
+        
+    </body>
